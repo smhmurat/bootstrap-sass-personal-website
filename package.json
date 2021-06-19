@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-sass-personal-website",
+  "version": "1.0.0",
+  "description": "Bootstrap-v5 ve sass eğitimi amacıyla kullanılmıştır.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smhmurat/bootstrap-sass-personal-website.git"
+  },
+  "author": "Semih Murat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smhmurat/bootstrap-sass-personal-website/issues"
+  },
+  "homepage": "https://github.com/smhmurat/bootstrap-sass-personal-website#readme",
+  "devDependencies": {
+    "sass": "^1.35.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.1",
+    "postcss-cli": "^8.3.1"
+  }
+}

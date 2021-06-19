@@ -1,0 +1,27 @@
+@use '../custom' as *;
+
+.navbar {
+     
+    color: red;
+    li {
+        padding: 0 0.7rem;
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        color: red;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    i {
+        color: $color-accent;
+    }
+}
+
+.site-logo {
+    img {
+        width: 182px;
+    }
+}
