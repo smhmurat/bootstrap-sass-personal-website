@@ -3,3 +3,6 @@ $color-accent: #3C64B1;
 // IMPORT BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+// ACCORDION OVERRIDES
+$accordion-padding-y:                     1.5rem;
+$accordion-padding-x:                     1.5rem;
